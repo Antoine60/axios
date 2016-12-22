@@ -1,16 +1,17 @@
 <html>
 <head>
-
+    <link href="chartist-js-develop/dist/chartist.css" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
-        <div v-for="message in messages">
-            {{ message.dt }}
-        </div>
+<div id="my-chart"></div>
+<div id="app">
+    <div v-for="message in messages">
+        {{ message.dt }}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
-
-    <script src="https://unpkg.com/vue@2.1.6/dist/vue.min.js"></script>
-    <script src="app.js"></script>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
+<script src="chartist-js-develop/dist/chartist.js"></script>
+<script src="https://unpkg.com/vue@2.1.6/dist/vue.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
